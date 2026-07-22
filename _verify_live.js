@@ -4,7 +4,7 @@ const fs = require("fs");
 const PW = "1964";
 const BASE = "https://eurekastudio5.github.io/dropzone-site/";
 const ORIG = [
-  "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v3_20260722.docx",
+  "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\260722_ゲーム業界トレンドと政策対談のご紹介_v1.pptx",
 ];
 
 async function get(url) {

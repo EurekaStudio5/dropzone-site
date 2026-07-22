@@ -11,10 +11,10 @@ const INDEX = path.join(ROOT, "index.html");
 // ==== 今回の配布物（全差し替え）====
 const NEW_FILES = [
   {
-    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v3_20260722.docx",
-    name: "レポート構成サンプル.docx",
-    label: "レポート構成サンプル",
-    sub: "Word形式",
+    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\260722_ゲーム業界トレンドと政策対談のご紹介_v1.pptx",
+    name: "業界レポートサンプル_16x9.pptx",
+    label: "業界レポートサンプル（16:9）",
+    sub: "PowerPoint形式",
   },
 ];
 
