@@ -11,7 +11,7 @@ const INDEX = path.join(ROOT, "index.html");
 // ==== 今回の配布物（全差し替え）====
 const NEW_FILES = [
   {
-    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\260722_ゲーム業界トレンドと政策対談のご紹介_v1.pptx",
+    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\260722_ゲーム業界トレンドと政策対談のご紹介_v2.pptx",
     name: "業界レポートサンプル_16x9.pptx",
     label: "業界レポートサンプル（16:9）",
     sub: "PowerPoint形式",
