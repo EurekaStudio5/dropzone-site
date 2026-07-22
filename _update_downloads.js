@@ -11,15 +11,9 @@ const INDEX = path.join(ROOT, "index.html");
 // ==== 今回の配布物（全差し替え）====
 const NEW_FILES = [
   {
-    src: "C:\\Users\\USER\\OneDrive\\PwC\\アサイン面談_アイリスロボティクス\\自己紹介_小野真五_アサイン面談用_v1.pptx",
-    name: "企画書テンプレート_16x9_シンプル.pptx",
-    label: "企画書テンプレート（16:9・シンプル）",
-    sub: "PowerPoint形式",
-  },
-  {
-    src: "C:\\Users\\USER\\OneDrive\\PwC\\アサイン面談_アイリスロボティクス\\アイリスGrロボット事業_即席学習教材_v1.docx",
-    name: "業務マニュアル_ひな形_A4.docx",
-    label: "業務マニュアル ひな形（A4）",
+    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v2_20260722.docx",
+    name: "レポート構成サンプル.docx",
+    label: "レポート構成サンプル",
     sub: "Word形式",
   },
 ];
@@ -90,7 +84,7 @@ fs.writeFileSync(INDEX, newHtml, "utf8");
 const html2 = fs.readFileSync(INDEX, "utf8");
 const m2 = html2.match(/const DATA = \{ salt:"([^"]+)", pageIv:"([^"]+)", page:"([^"]+)", iter:(\d+) \}/);
 const page2 = dec(m2[2], Buffer.from(m2[3], "base64")).toString("utf8");
-if (!page2.includes(entries[0].asset) || !page2.includes(entries[1].asset)) throw new Error("verify: DOWNLOADS not in re-decrypted page");
+if (!entries.every(e => page2.includes(e.asset))) throw new Error("verify: DOWNLOADS not in re-decrypted page");
 try {
   const badKey = crypto.pbkdf2Sync(Buffer.from("0000", "utf8"), salt, iter, 32, "sha256");
   const iv = Buffer.from(m2[2], "base64");
