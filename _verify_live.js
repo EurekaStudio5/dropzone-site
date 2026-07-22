@@ -4,8 +4,7 @@ const fs = require("fs");
 const PW = "1964";
 const BASE = "https://eurekastudio5.github.io/dropzone-site/";
 const ORIG = [
-  "C:\\Users\\USER\\OneDrive\\PwC\\アサイン面談_アイリスロボティクス\\自己紹介_小野真五_アサイン面談用_v1.pptx",
-  "C:\\Users\\USER\\OneDrive\\PwC\\アサイン面談_アイリスロボティクス\\アイリスGrロボット事業_即席学習教材_v1.docx",
+  "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v3_20260722.docx",
 ];
 
 async function get(url) {

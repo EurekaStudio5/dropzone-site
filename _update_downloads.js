@@ -11,7 +11,7 @@ const INDEX = path.join(ROOT, "index.html");
 // ==== 今回の配布物（全差し替え）====
 const NEW_FILES = [
   {
-    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v2_20260722.docx",
+    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\骨子_ゲーム会社向け2スライド_v3_20260722.docx",
     name: "レポート構成サンプル.docx",
     label: "レポート構成サンプル",
     sub: "Word形式",
