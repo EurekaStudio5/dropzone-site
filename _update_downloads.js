@@ -16,6 +16,12 @@ const NEW_FILES = [
     label: "業界レポートサンプル（16:9）",
     sub: "PowerPoint形式",
   },
+  {
+    src: "C:\\Users\\USER\\OneDrive\\PwC\\ゲーム会社紹介スライド\\返信_FB反映v5_20260724.docx",
+    name: "送付案内_サンプル.docx",
+    label: "送付案内サンプル",
+    sub: "Word形式",
+  },
 ];
 
 const html = fs.readFileSync(INDEX, "utf8");
